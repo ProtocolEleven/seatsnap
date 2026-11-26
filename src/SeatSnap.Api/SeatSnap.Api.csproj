@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\Catalog\SeatSnap.Modules.Catalog\SeatSnap.Modules.Catalog.csproj" />
+    <ProjectReference Include="..\Modules\Inventory\SeatSnap.Modules.Inventory\SeatSnap.Modules.Inventory.csproj" />
+    <ProjectReference Include="..\Modules\Booking\SeatSnap.Modules.Booking\SeatSnap.Modules.Booking.csproj" />
+    <ProjectReference Include="..\Modules\Payments\SeatSnap.Modules.Payments\SeatSnap.Modules.Payments.csproj" />
+    <ProjectReference Include="..\Modules\Identity\SeatSnap.Modules.Identity\SeatSnap.Modules.Identity.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

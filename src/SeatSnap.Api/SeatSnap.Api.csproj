@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <ItemGroup>
     <ProjectReference Include="..\Modules\Catalog\SeatSnap.Modules.Catalog\SeatSnap.Modules.Catalog.csproj" />
@@ -8,7 +8,13 @@
     <ProjectReference Include="..\Modules\Identity\SeatSnap.Modules.Identity\SeatSnap.Modules.Identity.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.Redis" />
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" />
+  </ItemGroup>
+
   <PropertyGroup>
+    <UserSecretsId>a5620ac3-731a-40e0-8c6d-9513bf3331f1</UserSecretsId>
   </PropertyGroup>
 
 </Project>

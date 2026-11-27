@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SeatSnap.Modules.Booking.Contracts\SeatSnap.Modules.Booking.Contracts.csproj" />
     <ProjectReference Include="..\..\..\SeatSnap.BuildingBlocks\SeatSnap.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\..\Inventory\SeatSnap.Modules.Inventory\SeatSnap.Modules.Inventory.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
